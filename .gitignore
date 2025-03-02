@@ -1,24 +1,40 @@
-### IntelliJ IDEA ###
-.idea/
-*.iml
-out/
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Java bytecode & archives
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Build directories
 target/
 build/
 
-### Java Compiled Files ###
-*.class
-*.log
+# Temporary files
 *.tmp
+*.bak
+*.swp
 
-### Ignore Maven & Gradle Cache ###
+# IntelliJ IDEA specific
+.idea/
+*.iml
+*.iws
+
+# Maven & Gradle
 .mvn/
 .gradle/
 
-### Ignore VS Code Settings (if applicable) ###
+# VS Code settings
 .vscode/
 
-### Ignore OS-Specific Files ###
-.DS_Store
-
-### Ignore Environment and Sensitive Config Files ###
+# Environment variables
 .env
+
+# Local config files
+*.local.*
